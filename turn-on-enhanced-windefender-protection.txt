@@ -1,0 +1,10 @@
+For relatives that are more prone to installing junk software bundlers, Windows Defender has protections for it that are only intended for Enterprise customers.
+
+However, you can force it on with this PowerShell:
+
+Set-MpPreference -PUAProtection enable
+
+It’s completely hidden...
+
+
+courtesy @swiftonsecurity
